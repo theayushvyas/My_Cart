@@ -1,0 +1,25 @@
+INSTRUCTION TO RUN 
+
+1) Create and Activate virtual environment (OPTIONAL)
+2) Install required dependencies from  requirements.txt using **pip3 install -r requirements.txt**
+3) Run the project python3 mycart.py 
+The above command will show you all the commands needed to run the project like this 
+
+Commands:
+  add-categories     Add Categories
+  add-my-cart        Add products to your cart
+  add-products       Add Products to the categories
+  checkout           Checkout with all the products in your cart
+  register           User registration
+  remove-from-cart   Remove products from cart
+  set-admin          Admin registration
+  view-all-products  View all available product details
+  view-categories    View list of all categories of products
+  view-product       View specific product details
+  view-user-cart     View carts items and generated bills of every user
+
+
+4) You need to first register admin with command 'set-admin'
+5) And so on all the other commands, eg:To create user  'python3 mycart.py register'
+
+6)To run Test-Cases use -  'python3 -m pytest test_mycart_cli.py'
