@@ -16,16 +16,6 @@ def test_register():
 	assert result.exit_code == 0 or 1	
 
 
-# def test_add_categories():
-	
-# 	result = runner.invoke(add_categories,['--adminpassword','avyas'],input='\n'.join(['dailyneeds']))
-# 	assert result.exit_code == 1	
-
-# def test_add_my_cart():
-	
-# 	result = runner.invoke(add_my_cart,input='lays')
-# 	assert result.exit_code == 0 or 1	
-
 def test_remove_from_cart():
 	
 	result = runner.invoke(add_products,['--adminpassword','avyas'],input='\n'.join(['lays', 'potato chips','20','snacks']))
@@ -50,7 +40,3 @@ def test_view_product():
 def test_view_user_cart():
 	result = runner.invoke(view_user_cart,['--adminpassword','avyas'])
 	assert result.exit_code == 0
-
-# def test_checkout():
-# 	result = runner.invoke(view_user_cart,['--username','pratyX','--password','abcd'])
-# 	assert result.exit_code == 0
