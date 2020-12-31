@@ -1,6 +1,6 @@
 # Instruction To RUN
 
-- clone this repository **"git clone https://github.com/theayushvyas/My_Cart"** 
+- clone this repository **"https://github.com/theayushvyas/My_Cart.git"** 
 
 1)Create and Activate virtual environment (OPTIONAL)
 
