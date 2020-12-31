@@ -8,4 +8,4 @@
 
 4)run the test-cases using **py.test**
 
-5)for full documentation (documents.txt)[https://github.com/theayushvyas/My_Cart/blob/main/Documentation.txt]
+5)for full documentation [documents.txt](https://github.com/theayushvyas/My_Cart/blob/main/Documentation.txt)
