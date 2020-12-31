@@ -22,4 +22,4 @@ Commands:
 4) You need to first register admin with command 'set-admin'
 5) And so on all the other commands, eg:To create user  'python3 mycart.py register'
 
-6)To run Test-Cases use -  'python3 -m pytest test_mycart_cli.py'
+6)To run Test-Cases use -  'python3 -m pytest test_mycart_cli.py' OR 'py.test
